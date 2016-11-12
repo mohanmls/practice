@@ -10,7 +10,7 @@ $dataLoader = new DataLoader();
 $data = $dataLoader->load(__DIR__.'/data/tld.json');
 
 $client = new WhoisClient($factory, $data);
-$domainName = 'rahulKoGFChahiye.com';
+$domainName = 'geteasyDomain.com';
 echo "<pre>".$client->query($domainName);echo "</pre>";
 
 $whoisClient = new WhoisClient($factory, $data);
