@@ -17,3 +17,5 @@ $whoisClient = new WhoisClient($factory, $data);
 $client = new AvailabilityClient($whoisClient, $data);
 
 echo $client->isAvailable($domainName);
+
+echo "Finished Here";
