@@ -58,7 +58,7 @@ class Domain
     public function setDomainName($domainName)
     {
         $this->domainName = $domainName;
-
+        $asd = "ya hooo";
         return $this;
     }
 
